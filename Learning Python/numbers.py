@@ -29,3 +29,7 @@ print(pow(num1, 2))
 #maximum and minimum
 print(max(num, num1))
 print(min(num, num1))
+
+#rounding
+print(round(1.2))
+print(round(1.5))
