@@ -15,3 +15,6 @@ print(2 * (4 + 3))
 
 num = 0
 print(num)
+
+#to print it with strings
+print(str(num) + " lovers atm")
