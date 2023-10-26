@@ -8,7 +8,10 @@ print(1+1)
 print (2*2)
 print(3/3)
 print(4-4)
+print(5%2)
 #knows pemdas too :O
 print(2 * 4 + 3)
 print(2 * (4 + 3))
 
+num = 0
+print(num)
