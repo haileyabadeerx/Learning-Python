@@ -15,3 +15,5 @@ print(phrase.isupper()) #pwede rin islower to check if ganon sila
 #to combine the two funcs sa isang print para maconvert at maging true
 print(phrase.upper().isupper()) 
 print(phrase.lower().islower())
+
+print(len(phrase)) #function to check how many chara in a string
