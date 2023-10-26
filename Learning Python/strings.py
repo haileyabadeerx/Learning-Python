@@ -24,5 +24,5 @@ print(phrase.index("n")) #ibibigay ng program anong index nung char na nandito
                         #pag naglagay ng sumthing na wala dito mag eerror
                         #pag ata may nauulit na char ung una lang madedetect?
 
-print(phrase.replace("Genshin", "Honkai"))
+print(phrase.replace("Genshin", "Honkai")) #para mareplace yung nakalagay sa string
                     

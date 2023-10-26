@@ -1,1 +1,0 @@
-print(phrase.isupper()) #pwede rin islower to check if ganon sila
