@@ -18,4 +18,6 @@ print(phrase.lower().islower())
 
 print(len(phrase)) #function to check how many chara in a string
 
-print(phrase[0])#to print a specify chara in a str (parang gumamit ng array)
+print(phrase[2])#to print a specify chara in a str (parang gumamit ng array)
+
+print(phrase.index(" ")) #ibibigay ng program anong index nung char na nandito
