@@ -20,4 +20,7 @@ print(len(phrase)) #function to check how many chara in a string
 
 print(phrase[2])#to print a specify chara in a str (parang gumamit ng array)
 
-print(phrase.index(" ")) #ibibigay ng program anong index nung char na nandito
+print(phrase.index("n")) #ibibigay ng program anong index nung char na nandito
+                        #pag naglagay ng sumthing na wala dito mag eerror
+                        #pag ata may nauulit na char ung una lang madedetect?
+                    
