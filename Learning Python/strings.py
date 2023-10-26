@@ -17,3 +17,5 @@ print(phrase.upper().isupper())
 print(phrase.lower().islower())
 
 print(len(phrase)) #function to check how many chara in a string
+
+print(phrase[0])#to print a specify chara in a str (parang gumamit ng array)
