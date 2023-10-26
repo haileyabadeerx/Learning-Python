@@ -25,3 +25,7 @@ print(abs(num1))
 
 #raised to the power
 print(pow(num1, 2))
+
+#maximum and minimum
+print(max(num, num1))
+print(min(num, num1))
