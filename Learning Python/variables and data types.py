@@ -1,9 +1,9 @@
 #This is how to declare variables
 
-name = "Hailey"
-age = "20"
+name = "CJ"
+age = "15"
 
 print("There was once a young girl named " + name + ".")
-print("Hailey is " + age + " years old")
+print("She is " + age + " years old")
 print(name + " likes to play videogames")
 print("But being " + age + " makes her feel miserable")
