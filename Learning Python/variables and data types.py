@@ -1,7 +1,8 @@
 #This is how to declare variables
 
-name = "Hailey"
-age = "20"
+name = "Hailey" #<-- strings
+age = 20 #<-- numbers
+is_girl = True #<-- booleans
 
 print("There was once a young girl named " + name + ".")
 print("She is " + age + " years old")
