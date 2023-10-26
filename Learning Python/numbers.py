@@ -1,3 +1,5 @@
+from math import *  #<-- need these for more math functions
+
 #this is how numbers are written
 print(1)
 print(1.2345)
@@ -33,3 +35,8 @@ print(min(num, num1))
 #rounding
 print(round(1.2))
 print(round(1.5))
+
+#--------all of these are now needing math import function---------
+#floor and ceiling
+print(ceil(4.5))
+print(floor(4.5))
