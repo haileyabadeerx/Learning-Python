@@ -22,3 +22,6 @@ print(str(num) + " lovers atm")
 
 #absolute value
 print(abs(num1))
+
+#raised to the power
+print(pow(num1, 2))
