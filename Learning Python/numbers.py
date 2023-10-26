@@ -40,3 +40,6 @@ print(round(1.5))
 #floor and ceiling
 print(ceil(4.5))
 print(floor(4.5))
+
+#squareroot
+print(sqrt(49))
