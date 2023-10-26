@@ -13,8 +13,12 @@ print(5%2)
 print(2 * 4 + 3)
 print(2 * (4 + 3))
 
-num = 0
+num = 0 
+num1 = 9
 print(num)
 
 #to print it with strings
 print(str(num) + " lovers atm")
+
+#absolute value
+print(abs(num1))
