@@ -1,10 +1,9 @@
-def greetings():
+def greetings(name):
     print("Welcome to functions in Python")
-    name = input("Your name? ")
     print("Nice meeting you " + name + ".")
 
-#to call a function
-
+#to call a function with passing parameters
 print("This is how function works in Python")
-greetings()
+nam = input("Your name? ")
+greetings(nam)
 print("Kewl, isn't it?")
