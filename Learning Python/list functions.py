@@ -12,6 +12,12 @@ ages.sort()
 print(ages)
 print(names)
 
+#sort in descending/reverse
+names.reverse()
+ages.reverse()
+
+print(ages + names)
+
 #to search for an index
 #pag nagsearch nang wala sa list mag eerror
 print(names.index("Maeve"))
