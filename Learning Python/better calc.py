@@ -39,4 +39,4 @@ else:
 if is_invalid:
     print("Try again.")
 else:
-    print("The answer is " + int(answer))
+    print("The answer is " + str(answer))
