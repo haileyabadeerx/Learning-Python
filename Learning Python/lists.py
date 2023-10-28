@@ -13,3 +13,7 @@ print(albums[1:])
 
 #choosing range of elements
 print(albums[1:5])
+
+#to change values of list 
+albums[2] = "1989 TV"
+print(albums[0:6])
