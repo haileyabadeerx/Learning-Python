@@ -5,6 +5,11 @@ print("Normal printing of lists:")
 print(names)
 print(ages)
 
+#to make a copy of a list
+dummy = names.copy()
+nums = ages.copy()
+print(dummy + nums)
+
 #sort in ascending order/alphabetical
 names.sort()
 ages.sort()
