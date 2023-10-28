@@ -5,6 +5,9 @@ print("Normal printing of lists:")
 print(names)
 print(ages)
 
+#to search for an index
+print(names.index("Maeve"))
+
 #to append another list to a list
 names.extend(ages)
 print(names)
@@ -20,3 +23,13 @@ print(ages) #once na may ininsert, lahat mapupush
 #to remove an element
 names.remove("McDuffie")
 print(names)
+
+#remove the last element of the list
+names.pop()
+print(names)
+
+#remove every element/ clear the list
+ages.clear()
+names.clear()
+print(names)
+print(ages)
