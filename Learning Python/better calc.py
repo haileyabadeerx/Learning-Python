@@ -17,21 +17,21 @@ def division(a, b):
 print("This program can calculate basic operations.")
 
 print("Please enter 2 numbers: ")
-num1 = input()
-num2 = input()
+num1 = int(input())
+num2 = int(input())
 is_invalid = False
 
 print("Please input the operation you wish to perform: ")
 op = input()
 
 if op == "+":
-    answer = int(addition(num1, num2))
+    answer = addition(num1, num2)
 elif op == "-":
-    answer = int(subtraction(num1, num2))
+    answer = subtraction(num1, num2)
 elif op == "*":
-    answer = int(multiplication(num1, num2))
+    answer = multiplication(num1, num2)
 elif op == "/":
-    answer = int(division(num1, num2))
+    answer = division(num1, num2)
 else:
     print("Invalid input.")
     is_invalid = True
@@ -39,4 +39,4 @@ else:
 if is_invalid:
     print("Try again.")
 else:
-    print("The answer is " + answer)
+    print("The answer is " + int(answer))
