@@ -14,13 +14,11 @@ MidnightsTrack = {
     12: "Sweet Nothing",
     13: "Mastermind",
 }
-num = 4
-print(MidnightsTrack[num])
 
 print("This is a Midnights Album Tracker")
 print("Press a number from 1-13 for your track.")
 
-track = input("Enter here: ")
+track = int(input("Enter here: "))
 
 if track in MidnightsTrack:
     print(MidnightsTrack[track])
