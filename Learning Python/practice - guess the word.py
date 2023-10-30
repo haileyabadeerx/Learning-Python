@@ -8,7 +8,7 @@ while guess != le_word:
     guess_lower = guess.lower()
     if guess != le_word:
         print("Oops, try again.")
-        print(guess_limit - 1 + "attempts remaining.")
+        print(str(guess_limit - 1) + "attempts remaining.")
 
 
 print("Congratulations! You know my favorite character.")
