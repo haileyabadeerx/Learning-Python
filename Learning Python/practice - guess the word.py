@@ -19,7 +19,7 @@ while le_word.lower() != guess_lower and guess_count < 3 and guess_limit != 0 :
     got_it = False
     ask_input()
     
-if got_it = False:
+if got_it == False:
     print("Sorry, you ran out of attempts.")
 else:
     print("Congratulations! You know my favorite character.")
