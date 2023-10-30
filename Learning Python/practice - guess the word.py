@@ -11,7 +11,7 @@ guess_lower = ""
 guess_limit = 3
 guess_count = 0
 
-while le_word.lower() != guess_lower and guess_count < 3 and guess_limit != 0 :
+while guess_lower != le_word.lower() and guess_count < 3 and guess_limit != 0 :
     print("Oops, try again.")
     print(str(guess_limit) + " attempts remaining.")
     guess_limit -= 1
