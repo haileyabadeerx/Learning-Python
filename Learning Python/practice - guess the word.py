@@ -14,6 +14,8 @@ while guess_limit != 0:
         print(str(guess_limit) + " attempts remaining.")
         guess_limit -= 1
         ask_input()
+    else:
+        break
     
 if got_it:
     print("Sorry, you ran out of attempts.")
