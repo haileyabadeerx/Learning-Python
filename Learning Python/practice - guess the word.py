@@ -1,5 +1,6 @@
 le_word = "Hu Tao"
 guess = ""
+guess_lower = ""
 guess_limit = 3
 guess_count = 0
 
