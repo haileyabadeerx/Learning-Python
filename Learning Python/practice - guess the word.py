@@ -7,7 +7,6 @@ ask_input()
 
 guess = ""
 guess_limit = 3
-guess_count = 0
 
 while guess.lower() != le_word.lower() and guess_limit != 0 :
     print("Oops, try again.")
