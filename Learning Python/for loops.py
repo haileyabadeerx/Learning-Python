@@ -4,8 +4,10 @@ for  letter in "Honkai Star Rail":
     print(letter)
 
 #for arrays
-
 trailblazers = ["March 7th", "Dan Heng", "Stelle"]
-
 for member in trailblazers:
     print(member)
+
+#for numbers
+for number in range(10):
+        print(number)
