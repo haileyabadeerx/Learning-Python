@@ -4,4 +4,7 @@ def exponent(base, power):
         result = result * base
     return result
 
-print(exponent(3,3))
+base = input("Enter a base: ")
+power = input("Enter the power: ")
+
+print(exponent(int(base),int(power)))
