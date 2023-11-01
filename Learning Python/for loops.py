@@ -8,6 +8,9 @@ trailblazers = ["March 7th", "Dan Heng", "Stelle"]
 for member in trailblazers:
     print(member)
 
-#for numbers
+#for numbers exclusive 10
 for number in range(10):
+        print(number)
+#laging di kasama yung last number sa range
+for number in range(2,15):
         print(number)
