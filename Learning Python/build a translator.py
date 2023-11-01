@@ -3,7 +3,10 @@ def translate(phrase):
 
     for letter in phrase:
         if letter.lower() in "aeiou":
-            translation = translation + "meow"
+            if letter.isupper():
+                translation = translation + "Meow"
+            else:
+                translation = translation + "meow"
         else:
             translation = translation + letter
     return translation
