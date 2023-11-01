@@ -14,3 +14,7 @@ for number in range(10):
 #laging di kasama yung last number sa range
 for number in range(2,15):
         print(number)
+
+#can use range for arrays too
+for member in range(len(trailblazers)): #<-- kinukuha length nung array
+      print(trailblazers[member])
