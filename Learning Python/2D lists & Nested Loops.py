@@ -4,3 +4,8 @@ twodimension_list = [
     [7, 8, 9] #row 2
     [0] #row 3
 ] 
+
+row = int(input("What row you want to see?"))
+column = int(input("What column you want to see?"))
+
+print(twodimension_list[row][column])
