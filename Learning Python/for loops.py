@@ -18,3 +18,19 @@ for number in range(2,15):
 #can use range for arrays too
 for member in range(len(trailblazers)): #<-- kinukuha length nung array
       print(trailblazers[member])
+
+#tweakings with for loops
+for index in range(5):
+      if index == 0:
+            print("The first iteration is 0")
+      elif index == 1:
+            print("The second iteration is 1.")
+      elif index == 2:
+            print("The third iteration is 2.")
+      elif index == 3:
+            print("The fourth iteration is 3")
+      elif index == 4:
+            print("The fifth iteration is 4.")
+print("Even if the range is 5, it won't be printed")
+
+
