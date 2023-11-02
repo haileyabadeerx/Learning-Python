@@ -1,7 +1,7 @@
 #similar to file handling lesson in c
 
-fontaine = open("fontaine_charas.txt", "r")
+fontaine = open("Learning Python\fontaine_charas.txt", "r")
 
-print(fontaine.read())
+print(fontaine.readable())
 
 fontaine.close()
