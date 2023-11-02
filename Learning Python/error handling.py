@@ -21,7 +21,8 @@ list = [1,2,3]
 
 try:
     listnum = int(input("Enter a number from the list: "))
-except IndexError as outofrange:
-    print(outofrange)
+    print(list[listnum])
+except IndexError as err:
+    print(err)
 
 
