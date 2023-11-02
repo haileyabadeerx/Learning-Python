@@ -1,7 +1,7 @@
 #similar to file handling lesson in c
 
-fontaine = open("fontaine characs.txt", "r")
+fontaine = open("fontaine charas.txt", "r")
 
-print(fontaine)
+print(fontaine.readable())
 
 fontaine.close()
