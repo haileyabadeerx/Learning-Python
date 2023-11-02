@@ -11,6 +11,6 @@ except:
 #pwede rin magspecify ng error
 
 try:
-    print(%d is a number", num)
+    print(%d is a number")
 except SyntaxError as error: #errors can have names
     print(error)
