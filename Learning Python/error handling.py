@@ -11,6 +11,6 @@ except:
 #pwede rin magspecify ng error
 
 try:
-    printf("%d is a number", num)
+    print(%d is a number", num)
 except SyntaxError as error: #errors can have names
     print(error)
