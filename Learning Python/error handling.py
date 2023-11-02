@@ -4,7 +4,7 @@
 
 try:
     num = int(input("Enter a number: "))
+    print(num)
 except:
     print("That is not a number.")
 
-print(num)
