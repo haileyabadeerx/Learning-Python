@@ -2,4 +2,9 @@
 
 #kunwari dito kapag pasaway si user at ginamit string imbis number
 
-num = int(input = ("Enter a number: "))
+try:
+    num = int(input("Enter a number: "))
+except:
+    print("That is not a number.")
+
+print(num)
