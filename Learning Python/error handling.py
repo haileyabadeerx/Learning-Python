@@ -11,6 +11,17 @@ except:
 #pwede rin magspecify ng error
 
 try:
-    print(%d is a number")
-except SyntaxError as error: #errors can have names
-    print(error)
+    eval("print(%d is a number)")
+except SyntaxError as error:
+    print("Caught a SyntaxError:", error)
+
+#another situation is pag out of range ang inaaccess sa list
+
+list = [1,2,3]
+
+try:
+    listnum = int(input("Enter a number from the list: "))
+except IndexError as outofrange:
+    print(outofrange)
+
+
