@@ -12,5 +12,5 @@ except:
 
 try:
     printf("%d is a number", num)
-except SyntaxError as err:
-    print(err)
+except SyntaxError as error: #errors can have names
+    print(error)
