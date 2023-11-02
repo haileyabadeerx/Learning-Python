@@ -12,6 +12,10 @@ print(fontaine.read()) #<-- read everything in the file
 fontaine = open(r"D:\github\Learning Python\Learning Python\file handling\fontaine_charas.txt", "r")
 print(fontaine.readlines()[3])
 
+fontaine = open(r"D:\github\Learning Python\Learning Python\file handling\fontaine_charas.txt", "r")
+#can use for loops too
+for characters in fontaine.readlines():
+    print(characters)
 
 
 fontaine.close()
