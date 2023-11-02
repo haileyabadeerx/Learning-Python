@@ -10,7 +10,7 @@ print(fontaine.readline())
 print(fontaine.read()) #<-- read everything in the file
 
 fontaine = open(r"D:\github\Learning Python\Learning Python\file handling\fontaine_charas.txt", "r")
-print(fontaine.readlines())
+print(fontaine.readlines()[3])
 
 
 
