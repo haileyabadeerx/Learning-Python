@@ -8,3 +8,9 @@ try:
 except:
     print("That is not a number.")
 
+#pwede rin magspecify ng error
+
+try:
+    printf("%d is a number", num)
+except SyntaxError as err:
+    print(err)
