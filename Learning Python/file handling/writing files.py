@@ -6,7 +6,7 @@ fontaine.write(add_char)
 
 fontaine.close()
 
-newfile = open(r"try.html", "w")
+newfile = open(r"D:\github\Learning Python\file handling\try.html", "w")
 
 newfile.write("<p> Hello World </p>" )
 
