@@ -10,4 +10,6 @@ newfile = open(r"try.html", "w")
 
 newfile.write("<p> Hello World </p>" )
 
+print(newfile.read())
+
 newfile.close()
