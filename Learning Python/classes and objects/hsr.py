@@ -2,6 +2,14 @@ from characters import chara
 
 char1 = chara("March 7th", "Preservation", 7777, False)
 
-char2 = chara.__name__(input("Input name: "))
+print(char1.name)
 
-print(str(char2.name))
+name = input("Character name: ")
+path = input("Character's path: ")
+age = input("Character's age: ")
+
+char2 = chara(name, path, age)
+
+print(char2.name)
+print(char2.path)
+print(char2.age)
