@@ -1,4 +1,4 @@
-import quiz_ques from questions
+from quiz_ques import questions
 
 q_prompts = [
     "What is Venti's true identity? \n(a) Drunk Man  (b) Wind Spirit  (c) Klee's Mum\n\nAnswer: ",
