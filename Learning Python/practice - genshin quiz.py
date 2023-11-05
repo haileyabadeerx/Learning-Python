@@ -5,7 +5,7 @@ q_prompts = [
     "Where do Zhongli works as a human now? \n(a) Wangsheng Funeral Parlor  (b) Cat Tail's Bar  (c) Port Ormos\n\nAnswer: ",
     "Can Raiden Shogun cook? \n(a) Yes  (b) Who knows  (c) No\n\nAnswer: ",
     "Nahida's archon name based on a demon is ____. \n(a) Baal  (b) Kusanali  (c) Buer\n\nAnswer: ",
-    "Who tried to kill Furina? \n(a) Neuvilette  (b) Arlecchino  (c) Traveler\n\nAnswer: "
+    "Who tried to kill Furina? \n(a) Neuvilette  (b) Arlecchino  (c) Traveler\n\nAnswer: ",
 ]
 
 ans_key = [
@@ -24,4 +24,4 @@ def quiz (questions):
             score += 1
     print("Congratulations, you got " + score + "/" + len(q_prompts) + "score.")
 
-quiz(questions)
+quiz(ans_key)
