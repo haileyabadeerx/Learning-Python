@@ -16,10 +16,12 @@ ans_key = [
     questions(q_prompts[4], "b"),
 ]
 
-def check (questions):
+def quiz (questions):
     score = 0
     for question in ans_key:
         answer = (input(questions.ques))
         if answer.lower() == questions.ans:
             score += 1
     print("Congratulations, you got " + score + "/" + len(q_prompts) + "score.")
+
+def quiz()
