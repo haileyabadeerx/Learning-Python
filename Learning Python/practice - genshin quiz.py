@@ -16,7 +16,7 @@ ans_key = [
     questions(q_prompts[4], "b"),
 ]
 
-def quiz (questions):
+def quiz (ans_key):
     score = 0
     for question in ans_key:
         answer = (input(questions.ques))
