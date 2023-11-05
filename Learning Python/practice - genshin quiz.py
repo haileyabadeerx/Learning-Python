@@ -8,10 +8,17 @@ q_prompts = [
     "Who tried to kill Furina? \n(a) Neuvilette  (b) Arlecchino  (c) Traveler\n\nAnswer: "
 ]
 
-ans_key [
+ans_key = [
     questions(q_prompts[0], "b"),
     questions(q_prompts[1], "a"),
     questions(q_prompts[2], "c"),
     questions(q_prompts[3], "c"),
     questions(q_prompts[4], "b"),
 ]
+
+def check (questions):
+    score = 0
+    for question in ans_key:
+        answer = (input(questions.ques))
+        answer.lower()
+        if answer == questions.ans
