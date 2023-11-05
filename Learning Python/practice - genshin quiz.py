@@ -20,5 +20,5 @@ def check (questions):
     score = 0
     for question in ans_key:
         answer = (input(questions.ques))
-        answer.lower()
-        if answer == questions.ans
+        if answer.lower() == questions.ans:
+            score += 1
