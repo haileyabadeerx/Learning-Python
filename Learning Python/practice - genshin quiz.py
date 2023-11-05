@@ -22,3 +22,4 @@ def check (questions):
         answer = (input(questions.ques))
         if answer.lower() == questions.ans:
             score += 1
+print("Congratulations, you got " + score + "/" + len(q_prompts) + "score.")
