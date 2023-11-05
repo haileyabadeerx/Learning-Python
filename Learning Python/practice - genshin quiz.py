@@ -22,6 +22,6 @@ def quiz (ans_key):
         answer = input(questions.ques)
         if answer.lower() == questions.ans:
             score += 1
-    print("Congratulations, you got " + str(score) + "/" + str(len(q_prompts)) + "score.")
+    print("Congratulations, you got " + str(score) + "/" + str(len(q_prompts)) + " score.")
 
 quiz(ans_key)
