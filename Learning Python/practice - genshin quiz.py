@@ -7,3 +7,11 @@ q_prompts = [
     "Nahida's archon name based on a demon is ____. \n(a) Baal  (b) Kusanali  (c) Buer\n\nAnswer: ",
     "Who tried to kill Furina? \n(a) Neuvilette  (b) Arlecchino  (c) Traveler\n\nAnswer: "
 ]
+
+ans_key [
+    questions(q_prompts[0], "b"),
+    questions(q_prompts[1], "a"),
+    questions(q_prompts[2], "c"),
+    questions(q_prompts[3], "c"),
+    questions(q_prompts[4], "b"),
+]
