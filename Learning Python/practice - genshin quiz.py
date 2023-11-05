@@ -24,4 +24,4 @@ def quiz (questions):
             score += 1
     print("Congratulations, you got " + score + "/" + len(q_prompts) + "score.")
 
-def quiz()
+quiz(questions)
