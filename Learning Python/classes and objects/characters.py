@@ -12,7 +12,7 @@ class gi_chara:
         self.weapon = weapon
         self.age = age
 
-    def lage_range(self):
+    def age_range(self):
         if gi_chara.age <= 19 and gi_chara > 12:
             return print("This character is a teenager.")
         elif gi_chara.age <= 12:
