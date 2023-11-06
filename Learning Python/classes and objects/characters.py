@@ -1,4 +1,4 @@
-class chara:
+class hsr_chara:
     def __init__(self, name, path, age, is_dead):
         self.name = name
         self.path = path

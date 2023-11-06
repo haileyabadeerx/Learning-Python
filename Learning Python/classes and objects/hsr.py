@@ -1,6 +1,6 @@
-from characters import chara
+from characters import hsr_chara
 
-char1 = chara("March 7th", "Preservation", 7777, False)
+char1 = hsr_chara("March 7th", "Preservation", 7777, False)
 
 print(char1.name)
 
@@ -8,7 +8,7 @@ name = input("Character name: ")
 path = input("Character's path: ")
 age = input("Character's age: ")
 
-char2 = chara(name, path, age, True)
+char2 = hsr_chara(name, path, age, True)
 
 print(char2.name)
 print(char2.path)
