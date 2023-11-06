@@ -11,4 +11,5 @@ print(char.name)
 print(char.element)
 print(char.weapon)
 print(char.age)
-print(char.age_range())
+
+char.age_range()
