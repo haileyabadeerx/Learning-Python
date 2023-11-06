@@ -13,7 +13,7 @@ class gi_chara:
         self.age = age
 
     def age_range(self):
-        if self.age <= 19 and gi_chara > 12:
+        if self.age <= 19 and self.age > 12:
             return print("This character is a teenager.")
         elif self.age <= 12:
             return print("This character is a child.")
