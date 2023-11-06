@@ -5,7 +5,7 @@ element = input("Character's element: ")
 weapon = input("Character's weapon: ")
 age = input("Character's age: ")
 
-char = gi_chara(name, path, age, True)
+char = gi_chara(name, element, weapon, age)
 
 print(char.name)
 print(char.element)
