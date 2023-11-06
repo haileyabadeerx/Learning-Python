@@ -8,4 +8,4 @@ games.HI3()
 a_games = animegames()
 
 a_games.PG()
-a_games.GI()
+a_games.GenshinImpact()
