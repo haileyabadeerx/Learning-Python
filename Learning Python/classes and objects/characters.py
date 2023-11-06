@@ -19,5 +19,5 @@ class gi_chara:
             return print("This character is a child.")
         elif self.age > 19:
             return print("This character is an adult.")
-        else:
-            return print("Invalid inputted age.")
+        #else:
+           # return print("Invalid inputted age.")
