@@ -4,6 +4,7 @@ from animegames import animegames
 games = hoyogames()
 
 games.HI3()
+games.GenshinImpact()
 
 a_games = animegames()
 
